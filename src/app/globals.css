@@ -1,0 +1,29 @@
+
+
+
+*{background-color: rgb(38, 37, 42);};
+H1{color: rgb(132, 179, 179);}
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+ 
+  
+  .dots {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dots li {
+    border-radius: 2px;
+    margin: 0 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #26de81;
+  }
+  
