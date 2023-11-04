@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
   <li> <Link href="/posts/contacto"><h6>Contacto</h6></Link></li>
   <li><Link href="/posts/contador"><h6>Contador</h6></Link></li>
   <li><Link href="/posts/contador_automatico"><h6>Contador Automatico</h6></Link></li>
-  <li><Link href="/posts/tictactoe"><h6>Tateti</h6></Link></li>
   <li><Link href="/posts/sobre-mi"><h6>Sobre mi</h6></Link></li>
   </ul>{children}</div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossOrigin="anonymous"async></script>
