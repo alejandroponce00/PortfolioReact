@@ -26,4 +26,15 @@ H1{color: rgb(132, 179, 179);}
     height: 16px;
     background-color: #26de81;
   }
+  .contenedor {
+    
+    display:flex;
+    justify-content: center;
+   
+  }
+  
+  .elemento {
+    display:flex;
+    margin: 50px; /* Espacio entre los elementos */
+  }
   

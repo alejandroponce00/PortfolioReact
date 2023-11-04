@@ -1,9 +1,9 @@
 "use client"
-import ParticlesBackground from '@/app/components/config/particlesBackground'
 import React from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
 import ParticlesBackground2 from '@/app/components/config2/particlesBackground'
+import Foto from '@/app/components/foto/foto'
 
 function About() {
   return (  <div>
@@ -17,7 +17,7 @@ Diseño y Estilo: Me apoyo en Bootstrap para agilizar el desarrollo y garantizar
 
 Bases de Datos: Mi elección de bases de datos recae en SQL, que garantiza la integridad de los datos y un rendimiento óptimo.<br></br>
 
-      <img src="../public/imagenes/foto.jpg" alt="Mi Imagen" />
+      <Foto />
    
 
 Proyectos Destacados
