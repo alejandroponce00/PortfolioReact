@@ -26,7 +26,7 @@ export default function Page() {
         rel="noopener noreferrer"
         class="btn btn-warning"><h3 class="text-warning">Instagram  <FontAwesomeIcon icon={faSquareInstagram} /></h3></a>
         
-      <br></br>
+     
          <div/>
        
        <div className="elemento">
