@@ -9,7 +9,7 @@ function Deletrea() {
         
       </Slide>
       <Fade delay={300} cascade damping={0.1} className='text-secondary'>
-        Alejandro Ponce
+        Alejandro 
         
       </Fade>
     </div>
