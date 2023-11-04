@@ -24,7 +24,7 @@ export default function Page() {
        <a href="https://www.instagram.com/alejandrooponce/"
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn-warning"><h3 class="text-warning">Instagram  <FontAwesomeIcon icon={faSquareInstagram} /></h3></a>
+        className="btn btn-warning"><h3 className="text-warning">Instagram  <FontAwesomeIcon icon={faSquareInstagram} /></h3></a>
         
      
          <div/>
@@ -35,7 +35,7 @@ export default function Page() {
      <a href="https://www.linkedin.com/in/alberto-alejandro-ponce-2b832926b/"
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn-warning"><h3 class="text-warning">Linkedin <FontAwesomeIcon icon={faLinkedin} /></h3></a>
+        className="btn btn-warning"><h3 className="text-warning">Linkedin <FontAwesomeIcon icon={faLinkedin} /></h3></a>
         
      </div></div>
       <Player />

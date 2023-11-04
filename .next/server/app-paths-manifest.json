@@ -1,4 +1,9 @@
 {
+  "/not-found": "app/not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/posts/contador_automatico/page": "app/posts/contador_automatico/page.js",
+  "/posts/tictactoe/page": "app/posts/tictactoe/page.js",
+  "/posts/sobre-mi/page": "app/posts/sobre-mi/page.js",
   "/posts/contacto/page": "app/posts/contacto/page.js"
 }
