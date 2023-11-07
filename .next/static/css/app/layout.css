@@ -114,10 +114,13 @@ H1{color: rgb(132, 179, 179);}
    
   }
   
-  .elemento {
+  .contenedor {
+    display: flex;
+    justify-content: center;
     
-    display:flex;
-    margin: 50px; /* Espacio entre los elementos */
+    flex-direction:row;
+    text-align: center;
+    
   }
   .redes{
   display:inline-table;

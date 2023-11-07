@@ -6,8 +6,8 @@ import ParticlesBackground2 from '@/app/components/config2/particlesBackground'
 import Foto from '@/app/components/foto/foto'
 
 function About() {
-  return (  <div>
-    <p className='text-white  text-center'><u>Tecnologías que Domino</u> <br></br>
+  return (  <div><Foto />
+    <p className='text-white  text-center'>  <u>Tecnologías que Domino</u> <br></br>
 <strong>Frontend:</strong> Utilizo React.js y Next.js para crear interfaces de usuario modernas y receptivas que cautivan a los usuarios. Mi enfoque en la experiencia del usuario garantiza que cada proyecto sea intuitivo y fácil de navegar.<br></br>
 
 <strong>Backend:</strong> En el lado del servidor, utilizo Python y Django para desarrollar aplicaciones robustas y escalables. Mi experiencia en Django me permite crear API confiables y seguras.<br></br>
@@ -17,7 +17,7 @@ Diseño y Estilo: Me apoyo en Bootstrap para agilizar el desarrollo y garantizar
 
 Bases de Datos: Mi elección de bases de datos recae en SQL, que garantiza la integridad de los datos y un rendimiento óptimo.<br></br>
 
-      <Foto />
+    
    
 
 Proyectos Destacados
