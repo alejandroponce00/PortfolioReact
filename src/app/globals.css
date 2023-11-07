@@ -34,7 +34,16 @@ H1{color: rgb(132, 179, 179);}
   }
   
   .elemento {
+    
     display:flex;
     margin: 50px; /* Espacio entre los elementos */
   }
+  .redes{
+  display:inline-table;
+    margin: 20px;
+    
+   }
+   
+   
+   
   
