@@ -127,7 +127,32 @@ H1{color: rgb(132, 179, 179);}
     margin: 20px;
     
    }
-   
+   .intro{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction:row;
+    text-align: center;
+    display:inline-table;
+    margin: 20px;
+   }
    
    
   
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/navbar/navbar.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+   justify-content: space-between;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+.navbar ul li{
+    list-style: none;
+
+}

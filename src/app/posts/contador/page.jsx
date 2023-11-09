@@ -2,7 +2,9 @@
 import Link from 'next/link';
 import React, { useState } from "react";
 
-function Contador() {
+
+
+ function Contador() {
   const [count, setCount] = useState(0);
   
 

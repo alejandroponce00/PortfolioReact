@@ -46,7 +46,15 @@ H1{color: rgb(132, 179, 179);}
     margin: 20px;
     
    }
-   
+   .intro{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction:row;
+    text-align: center;
+    display:inline-table;
+    margin: 20px;
+   }
    
    
   

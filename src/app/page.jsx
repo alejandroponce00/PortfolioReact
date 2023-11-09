@@ -2,7 +2,9 @@ import ParticlesBackground from './components/config/particlesBackground';
 import Deletrea from './components/texto_animado/page';
 import Foto from './components/foto/foto';
 
-export default function Home() {
+export default async function Home() {
+ 
+  await new Promise((resolve) => setTimeout(resolve, 5000))
   return (
     <div>
       <h3 className='text-center'></h3>

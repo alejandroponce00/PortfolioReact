@@ -1,0 +1,14 @@
+.navbar {
+   justify-content: space-between;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+.navbar ul li{
+    list-style: none;
+
+}
