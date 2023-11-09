@@ -18,7 +18,7 @@ function Contador() {
   return (
     <div>
       <h1 className="text-white bg-dark text-center">Contador Automatico:<p className="text-white bg-dark text-center"> {count}</p></h1><Player />
-      <h6><Link href="/"><h5>volver al inicio</h5></Link></h6>
+      <Link href="./Proyectos"><h5>volver al inicio</h5></Link>
       
     </div>
     

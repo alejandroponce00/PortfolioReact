@@ -22,7 +22,7 @@ import React, { useState } from "react";
       <h1 className="text-white bg-dark">Contador: {count}</h1>
       <button onClick={incrementar} className='btn btn-success text-wrap text-center'>Incrementar</button><br />
       <button onClick={decrementar}className='btn btn-danger text-wrap'>Decrementar</button>
-      <Link href="/"><h5>volver al inicio</h5></Link>
+      <Link href="./Proyectos"><h5>volver al inicio</h5></Link>
     </div>
     
   );

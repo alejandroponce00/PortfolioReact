@@ -6,9 +6,11 @@
 }
 .navbar ul {
     display: flex;
+    align-items: flex-end;
     gap: 1rem;
 }
 .navbar ul li{
     list-style: none;
+    display: flex;
 
 }

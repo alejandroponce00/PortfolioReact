@@ -136,6 +136,13 @@ H1{color: rgb(132, 179, 179);}
     display:inline-table;
     margin: 20px;
    }
+   .parrafo{
+    color: rgb(129, 133, 136);
+    padding: 0 4rem;
+    
+    writing-mode: horizontal-tb;
+    display: flex;
+  }
    
    
   
@@ -150,9 +157,11 @@ H1{color: rgb(132, 179, 179);}
 }
 .navbar ul {
     display: flex;
+    align-items: flex-end;
     gap: 1rem;
 }
 .navbar ul li{
     list-style: none;
+    display: flex;
 
 }

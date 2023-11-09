@@ -1,7 +1,7 @@
 {
   "/page": "app/page.js",
-  "/posts/sobre-mi/page": "app/posts/sobre-mi/page.js",
-  "/posts/contador_automatico/page": "app/posts/contador_automatico/page.js",
-  "/posts/contador/page": "app/posts/contador/page.js",
-  "/posts/contacto/page": "app/posts/contacto/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/posts/Proyectos/page": "app/posts/Proyectos/page.js",
+  "/posts/contacto/page": "app/posts/contacto/page.js",
+  "/posts/contador/page": "app/posts/contador/page.js"
 }
