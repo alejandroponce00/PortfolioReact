@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { faHandPointLeft } from '@fortawesome/free-regular-svg-icons';
 import Deletrea from '@/app/components/texto_animado/page';
 
 
@@ -13,10 +13,10 @@ import Deletrea from '@/app/components/texto_animado/page';
 export default function Page() {
   return (
     
-    <div>
+    <div className='principal'>
       
-    
-       <h1 className="text-info text-center">Contacto</h1>
+    <h1 className="text-info text-center"><Deletrea escribe="Contacto" /></h1>
+      
       
       <div className='elemento'>
       <div className="contenedor">
@@ -51,10 +51,10 @@ export default function Page() {
          <div/>
      
       
-      <li><Deletrea /></li>
-      <h5>
-        <Link href="/">volver al inicio</Link>
-      </h5>
+      
+      <footer className='text-center'>
+        <Link href="/">volver al inicio<FontAwesomeIcon icon={faHandPointLeft} beatFade /></Link>
+      </footer>
     
         
       

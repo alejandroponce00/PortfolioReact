@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import Link from 'next/link';
-import Player from "../Animacion/page";
+import Player from "../../components/Animacion/page";
 function Contador() {
   const [count, setCount] = useState(0);
 

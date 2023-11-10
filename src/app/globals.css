@@ -8,7 +8,9 @@ H1{color: rgb(132, 179, 179);}
     justify-content: center;
     gap: 50px;
   }
- 
+ .principal{
+  margin-top: 100px;
+ }
   
   .dots {
     display: flex;
@@ -43,7 +45,8 @@ H1{color: rgb(132, 179, 179);}
   }
   .redes{
   display:inline-table;
-    margin: 20px;
+    margin: 120px 20px 100px 20px ;
+    
     
    }
    .intro{
@@ -56,6 +59,7 @@ H1{color: rgb(132, 179, 179);}
     margin: 20px;
    }
    .parrafo{
+    margin: 100px;
     color: rgb(129, 133, 136);
     padding: 0 4rem;
     
