@@ -17,6 +17,8 @@ function page() {
         <li>
           <Link href="https://alejandroponce00.github.io/ArteSanaMosaicos/">ArteSana Mosaicos</Link>
         </li>
+        <li><Link href="/posts/Api"><h6>Api</h6>
+    </Link></li>
      
     
         </ul></nav>
