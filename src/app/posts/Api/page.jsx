@@ -8,7 +8,7 @@ async function loadPosts() {
 }
 
 
-//esto es lo que se va a renderizar
+//React server component
 
 async function PostPage() {
   const posts = await loadPosts();
