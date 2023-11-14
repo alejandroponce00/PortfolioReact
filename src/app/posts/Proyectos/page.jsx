@@ -19,6 +19,8 @@ function page() {
         </li>
         <li><Link href="/posts/Api"><h6>Api</h6>
     </Link></li>
+    <li><Link href="/posts/Api2"><h6>Api2</h6>
+    </Link></li>
      
     
         </ul></nav>

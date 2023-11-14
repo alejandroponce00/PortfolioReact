@@ -1,11 +1,7 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-<<<<<<< HEAD
-  "/posts/Proyectos/page": "app/posts/Proyectos/page.js"
-=======
-  "/posts/Api/page": "app/posts/Api/page.js",
+  "/posts/Api2/page": "app/posts/Api2/page.js",
   "/posts/Proyectos/page": "app/posts/Proyectos/page.js",
-  "/posts/[id]/page": "app/posts/[id]/page.js"
->>>>>>> principal
+  "/posts/sobre-mi/page": "app/posts/sobre-mi/page.js",
+  "/posts/contacto/page": "app/posts/contacto/page.js"
 }
