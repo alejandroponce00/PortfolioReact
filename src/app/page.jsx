@@ -2,7 +2,7 @@ import ParticlesBackground from './components/config/particlesBackground';
 
 export default async function Home() {
  
-  await new Promise((resolve) => setTimeout(resolve, 500))
+  await new Promise((resolve) => setTimeout(resolve, 1000))
   return (
     <div className='principal'>
       <h3 className='text-center'></h3>
