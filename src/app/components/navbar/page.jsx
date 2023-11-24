@@ -5,11 +5,24 @@ import "./navbar.css"
 function Navbar() {
   return (
     <nav className='navbar'>
-       <Link href="/"> <h5 className="text-secondary bg-dark">Pagina<br />Principal</h5></Link>
+       <Link href="/"> <button type= "button"className="hover">
+        <span></span>
+        <span></span>
+        <span></span>
+       Pagina<br />Principal</button></Link>
     <ul>
-    <li> <Link href="/posts/contacto"><h6>Contacto</h6></Link></li>
-    <li><Link href="/posts/Proyectos"><h6>Proyectos</h6></Link></li>
-    <li><Link href="/posts/sobre-mi"><h6>Sobre mi</h6></Link></li>
+    <li> <Link href="/posts/contacto"><button type= "button"className="hover">
+        <span></span>
+        <span></span>
+        <span></span>Contacto</button></Link></li>
+    <li><Link href="/posts/Proyectos"><button type= "button"className="hover">
+        <span></span>
+        <span></span>
+        <span></span>Proyectos</button></Link></li>
+    <li><Link href="/posts/sobre-mi"><button type= "button"className="hover">
+        <span></span>
+        <span></span>
+        <span></span>Sobre mi</button></Link></li>
     </ul></nav>
   )
 }

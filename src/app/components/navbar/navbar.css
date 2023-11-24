@@ -1,16 +1,29 @@
 .navbar {
-   justify-content: space-between;
+    justify-content: space-between;
     display: flex;
-    padding: 0 4rem;
+    padding: 1rem; /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
     align-items: center;
+    
 }
+
 .navbar ul {
     display: flex;
-    align-items: flex-end;
+    align-items: center; /* Alineados al centro en lugar de al final */
     gap: 1rem;
+    margin: 0; /* Eliminado el margen predeterminado de la lista */
+    padding: 0; /* Eliminado el relleno predeterminado de la lista */
 }
-.navbar ul li{
-    list-style: none;
-    display: flex;
 
+.navbar ul li {
+    list-style: none;
 }
+
+/* Estilo básico para los enlaces */
+.navbar ul li a {
+    text-decoration: none;
+    color: white; /* Color del texto */
+    padding: 0.5rem 1rem; /* Espaciado interno para hacer los enlaces más clicables */
+    border-radius: 4px; /* Bordes redondeados para un aspecto más agradable */
+}
+
+
