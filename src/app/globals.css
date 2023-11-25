@@ -1,7 +1,6 @@
 
+body{background:linear-gradient(rgb(26, 9, 55),rgb(8, 1, 20))};
 
-
-*{background-color: rgb(38, 37, 42);};
 H1{color: rgb(132, 179, 179);}
 .contact {
     display: flex;
@@ -9,7 +8,8 @@ H1{color: rgb(132, 179, 179);}
     gap: 50px;
   }
  .principal{
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 300px;
  }
   
   .dots {
@@ -73,7 +73,7 @@ H1{color: rgb(132, 179, 179);}
   padding: 5px 10px;
   border: none;
   outline: none;
-  background: #048BA8;
+  background: linear-gradient(to bottom right,#032336, #113951,#477187,#6F8FA2);
   color: #dbdbe3;
   cursor: pointer;
   transition: .5s;
@@ -131,5 +131,11 @@ button:hover span:nth-child(3) {
 button:hover span:nth-child(4) {
     top: 0;
 }
-   
+.tecnologias{
+  width: 100px;
+  height: 100px;
+}  
+.next{background-color: #dbdbe3;
+ 
+} 
   

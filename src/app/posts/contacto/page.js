@@ -25,7 +25,7 @@ export default function Page() {
       target="_blank"
       rel="noopener noreferrer"
       className="btn btn-warning">
-      <h3 className="text-warning">Instagram  <FontAwesomeIcon icon={faInstagram} bounce /></h3>
+      <h3 className="text-dark">Instagram  <FontAwesomeIcon icon={faInstagram} bounce /></h3>
     </a>
   </div>
   <br></br>
@@ -34,7 +34,7 @@ export default function Page() {
       target="_blank"
       rel="noopener noreferrer"
       className="btn btn-warning">
-      <h3 className="text-warning">Linkedin <FontAwesomeIcon icon={faLinkedin} beat /></h3>
+      <h3 className="text-dark">Linkedin <FontAwesomeIcon icon={faLinkedin} beat /></h3>
     </a>
   </div>
   <div className="redes">
@@ -42,7 +42,7 @@ export default function Page() {
       target="_blank"
       rel="noopener noreferrer"
       className="btn btn-warning">
-      <h3 className="text-warning">Github<FontAwesomeIcon icon={faGithub} fade /></h3>
+      <h3 className="text-dark">Github<FontAwesomeIcon icon={faGithub} fade /></h3>
     </a>
   </div>
 </div>
@@ -52,9 +52,9 @@ export default function Page() {
      
       
       
-      <footer className='text-center'>
+      <h5 className='text-center'>
         <Link href="/">volver al inicio<FontAwesomeIcon icon={faHandPointLeft} beatFade /></Link>
-      </footer>
+      </h5>
     
         
       
