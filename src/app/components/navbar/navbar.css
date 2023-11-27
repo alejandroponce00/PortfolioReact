@@ -1,19 +1,21 @@
 .navbar {
+    
     justify-content: space-between;
     display: flex;
-    padding: 1rem; /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
+    padding: 2rem; /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
     align-items: center;
     
 }
 
-.navbar ul {
+.navbar ul {@media (min-width: 522px) {
+  
     display: flex;
     align-items: center; /* Alineados al centro en lugar de al final */
     gap: 1rem;
     margin: 0; /* Eliminado el margen predeterminado de la lista */
     padding: 0; /* Eliminado el relleno predeterminado de la lista */
 }
-
+}
 .navbar ul li {
     list-style: none;
 }
@@ -22,7 +24,7 @@
 .navbar ul li a {
     text-decoration: none;
     color: white; /* Color del texto */
-    padding: 0.5rem 1rem; /* Espaciado interno para hacer los enlaces más clicables */
+   
     border-radius: 4px; /* Bordes redondeados para un aspecto más agradable */
 }
 

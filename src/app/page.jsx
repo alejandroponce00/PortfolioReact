@@ -15,7 +15,7 @@ export default async function Home() {
   return (
     <div className='principal'>
       <h3 className='text-center'></h3>
-      <h1 className="text-secondary text-center ">Desarrollo Web Fullstack</h1> <br/> 
+      <h1 className="text-secondary text-center ">Desarrollo Web Fullstack</h1> <br/> <hr className='text-light' />
       <section className="parrafo text-center">
         ¡Hola, soy un desarrollador fullstack con experiencia en la creación de aplicaciones web de alto rendimiento! Mi enfoque se centra en la construcción de soluciones web atractivas y eficientes utilizando una variedad de tecnologías de vanguardia. Mi objetivo es combinar diseño y funcionalidad para ofrecer experiencias digitales excepcionales.
       </section>
