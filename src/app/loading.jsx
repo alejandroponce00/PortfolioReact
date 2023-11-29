@@ -1,8 +1,10 @@
+"use client"
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 function LoadingPage() {
   return (
-    <div><h1 className='text-secondary text-center'>cargando...</h1></div>
+    <h3 className='text-info text-center'><FontAwesomeIcon icon={faSpinner} spinPulse />cargando...</h3>
   )
 }
 

@@ -37,7 +37,7 @@ const Player = () => {
     <div className="player">
       <ul className="dots">
         {ticks.map((_, i) => (
-          <li key={i} />
+          <li key={i} className="text-center"/>
         ))}
       </ul>
       <button onClick={handleClick}className="btn btn-secondary">{playing ? "Pause" : "Play"}</button>

@@ -1,3 +1,4 @@
+"use client"
 import ParticlesBackground from './components/config/particlesBackground';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs } from '@fortawesome/free-brands-svg-icons';
@@ -9,9 +10,9 @@ import Foto from './components/foto/fotopredet';
 
 
 
-export default async function Home() {
+export default  function Home() {
  
-  await new Promise((resolve) => setTimeout(resolve, 500))
+  
   return (
     <div className='principal'>
       <h3 className='text-center'></h3>

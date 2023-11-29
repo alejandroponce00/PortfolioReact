@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Deletrea from '@/app/components/texto_animado/page'
 
-function page() {
-  return (
+ async function  page() {
+   await new Promise((resolve) => setTimeout(resolve, 2000)); return (
     <div className='principal'>
       <h1 className="text-info text-center "><Deletrea escribe="Proyectos" /></h1>
         <nav className='text-center'>
