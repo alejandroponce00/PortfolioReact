@@ -15,7 +15,7 @@ export default function Page() {
     
     <div className='principal'>
       
-    <h1 className="text-info text-center"><Deletrea escribe="Contacto" /></h1>
+    <h1 className="subtitulo text-center"><Deletrea escribe="Contacto" /></h1>
       
       
       <div className='elemento'>
