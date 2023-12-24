@@ -7,15 +7,15 @@ import Foto from '@/app/components/foto/fotopredet'
 
 function About() {
   return (  <div className='sobremi text-center '><Foto tipo="/imagenes/perfil.jpg" />
-    <p className='parrafo2 text-light  text-center'>  <h3>Tecnologías que Domino</h3> <br></br>
-<strong>Frontend:</strong> Utilizo React.js y Next.js para crear interfaces de usuario modernas y receptivas que cautivan a los usuarios. Mi enfoque en la experiencia del usuario garantiza que cada proyecto sea intuitivo y fácil de navegar.<br></br>
+      <h3 className='text-light'>Tecnologías que Domino</h3> <br></br>
+      <p className='parrafo2 text-light  text-center'><h3>Frontend:</h3> Utilizo React.js y Next.js para crear interfaces de usuario modernas y receptivas que cautivan a los usuarios. Mi enfoque en la experiencia del usuario garantiza que cada proyecto sea intuitivo y fácil de navegar.<br></br>
 
-<strong>Backend:</strong> En el lado del servidor, utilizo Python y Django para desarrollar aplicaciones robustas y escalables. Mi experiencia en Django me permite crear API confiables y seguras.<br></br>
+<h3>Backend:</h3> En el lado del servidor, utilizo Python y Django para desarrollar aplicaciones robustas y escalables. Mi experiencia en Django me permite crear API confiables y seguras.<br></br>
 
-Diseño y Estilo: Me apoyo en Bootstrap para agilizar el desarrollo y garantizar que mis aplicaciones tengan un aspecto profesional. Siempre me esfuerzo por lograr un equilibrio entre la estética y la usabilidad.<br></br>
+<h3>Diseño y Estilo:</h3> Me apoyo en Bootstrap para agilizar el desarrollo y garantizar que mis aplicaciones tengan un aspecto profesional. Siempre me esfuerzo por lograr un equilibrio entre la estética y la usabilidad.<br></br>
 
 
-Bases de Datos: Mi elección de bases de datos recae en SQL, que garantiza la integridad de los datos y un rendimiento óptimo.<br></br>
+<h3>Bases de Datos:</h3> Mi elección de bases de datos recae en SQL, que garantiza la integridad de los datos y un rendimiento óptimo.<br></br>
 
     
    
