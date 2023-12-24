@@ -23,10 +23,10 @@ export default  function Home() {
        <footer className='text-center text-light'>
      
         <ul className='navbar'>
-        <li className='tecnologias'><p>JavaScript</p> <FontAwesomeIcon icon={faJs} beat size="xl" /></li>
-       <li className='tecnologias'><p>Python</p> <FontAwesomeIcon icon={faPython} beat size="xl"/></li>
-       <li className='tecnologias'><p>Sql</p><FontAwesomeIcon icon={faDatabase} beat size="xl" /></li>
-       <li className='tecnologias'><p>Reactjs</p> <FontAwesomeIcon icon={faReact} beat size="xl" /></li></ul>
+        <li className='tecnologias'><p>JavaScript</p> <FontAwesomeIcon icon={faJs} beat size="xl" className='icono'/></li>
+       <li className='tecnologias'><p>Python</p> <FontAwesomeIcon icon={faPython} beat size="xl"className='icono'/></li>
+       <li className='tecnologias'><p>Sql</p><FontAwesomeIcon icon={faDatabase} beat size="xl" className='icono'/></li>
+       <li className='tecnologias'><p>Reactjs</p> <FontAwesomeIcon icon={faReact} beat size="xl" className='icono'/></li></ul>
        <br />
        
       <p>Nextjs</p> <Foto tipo="/imagenes/next-js.svg" />

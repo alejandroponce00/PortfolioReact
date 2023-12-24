@@ -8,7 +8,7 @@ import Foto from '@/app/components/foto/fotopredet'
 function About() {
   return (  <div className='sobremi text-center '><Foto tipo="/imagenes/perfil.jpg" />
       <h3 className='text-light'>Tecnologías que Domino</h3> <br></br>
-      <p className='parrafo2 text-light  text-center'><h3>Frontend:</h3> Utilizo React.js y Next.js para crear interfaces de usuario modernas y receptivas que cautivan a los usuarios. Mi enfoque en la experiencia del usuario garantiza que cada proyecto sea intuitivo y fácil de navegar.<br></br>
+      <section className='parrafo2 text-light  text-center'><h3>Frontend:</h3> Utilizo React.js y Next.js para crear interfaces de usuario modernas y receptivas que cautivan a los usuarios. Mi enfoque en la experiencia del usuario garantiza que cada proyecto sea intuitivo y fácil de navegar.<br></br>
 
 <h3>Backend:</h3> En el lado del servidor, utilizo Python y Django para desarrollar aplicaciones robustas y escalables. Mi experiencia en Django me permite crear API confiables y seguras.<br></br>
 
@@ -25,7 +25,7 @@ Sistema de Gestión de Tareas: Desarrollé una aplicación web de gestión de ta
 
 Plataforma de Comercio Electrónico: Colaboré en la creación de una plataforma de comercio electrónico con React y Django, brindando a las empresas una solución completa para vender en línea.<br></br>
 
-Blog Personal: Diseñé y desarrollé mi propio blog personal utilizando Next.js, lo que me permitió expresar mis ideas y conocimientos técnicos.</p>
+Blog Personal: Diseñé y desarrollé mi propio blog personal utilizando Next.js, lo que me permitió expresar mis ideas y conocimientos técnicos.</section>
     
    
     

@@ -141,8 +141,7 @@ button:hover span:nth-child(4) {
     top: 0;
 }
 .tecnologias{
-  width: 100px;
-  height: 100px;
+  color: #dbdbdb;
 }  
 .next{
   border-radius: 50px;
@@ -155,3 +154,10 @@ button:hover span:nth-child(4) {
   font-family: Rubik Doodle Shadow;
   color: #d4cdc8;
 } 
+.icono{
+  width: 100px;
+  height: 100px;
+}
+.pagina{
+  margin: 100px;
+}
