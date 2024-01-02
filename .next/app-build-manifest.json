@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/loading.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/loading": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
+      "static/chunks/app/page.js"
     ],
     "/posts/contacto/page": [
       "static/chunks/webpack.js",
@@ -26,15 +26,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/posts/Proyectos/page.js"
     ],
-    "/posts/sobre-mi/page": [
+    "/posts/contador/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/posts/sobre-mi/page.js"
+      "static/chunks/app/posts/contador/page.js"
     ],
-    "/not-found": [
+    "/posts/contador_automatico/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/posts/contador_automatico/page.js"
     ]
   }
 }
