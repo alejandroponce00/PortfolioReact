@@ -1,14 +1,14 @@
 const particlesConfig = {
   "particles": {
     "number": {
-      "value": 90,
+      "value": 100,
       "density": {
         "enable": true,
         "value_area": 2998.7610382026364
       }
     },
     "color": {
-      "value": "#fff"
+      "value": "#F3D78B"
     },
     "shape": {
       "type": "circle",
@@ -36,7 +36,7 @@ const particlesConfig = {
       }
     },
     "size": {
-      "value": 10,
+      "value": 7,
       "random": true,
       "anim": {
         "enable": false,
@@ -54,8 +54,8 @@ const particlesConfig = {
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "bottom",
+      "speed": 4,
+      "direction": "top",
       "random": false,
       "straight": false,
       "out_mode": "out",

@@ -7,6 +7,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faHandPointLeft } from '@fortawesome/free-regular-svg-icons';
 import Deletrea from '@/app/components/texto_animado/page';
+import ParticlesBackground2 from '@/app/components/config2/particlesBackground';
 
 
 
@@ -60,6 +61,7 @@ export default function Page() {
       
      
     </div>
+    <ParticlesBackground2 />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Deletrea from '@/app/components/texto_animado/page'
+import ParticlesBackground2 from '@/app/components/config2/particlesBackground';
 
  async function  page() {
    await new Promise((resolve) => setTimeout(resolve, 2000)); return (
@@ -23,6 +24,7 @@ import Deletrea from '@/app/components/texto_animado/page'
      
     
         </ul></nav>
+        <ParticlesBackground2 />
     </div>
   )
 }
