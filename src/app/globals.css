@@ -10,9 +10,15 @@ H1{color: rgb(132, 179, 179);}
     justify-content: center;
     gap: 50px;
   }
- .principal{@media (min-width: 522px) {
-  margin: 50px 200px 100px 200px
- }margin:10px}
+  .proyectos{
+    text-align: center;
+    list-style: none;
+  }
+ .principal{@media (min-width: 480px) {
+  align-items: center;
+  list-style: none;
+  margin: auto
+ }margin:10px;}
   
   .dots {
     display: flex;
@@ -42,15 +48,18 @@ H1{color: rgb(132, 179, 179);}
     
   }
   .redes{
-  display:inline-table;
-    margin: 120px 20px 100px 20px ;
+    justify-content: center;
+  display:flex;
+  margin: 0.5rem;
+
+    
     
     
    }
    
    .intro{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     
     flex-direction:row;
     text-align: center;
@@ -73,9 +82,9 @@ H1{color: rgb(132, 179, 179);}
     font-size: 20px;}
   .hover  {
     border-radius: 5px;
-   margin: 10px;
+   margin: 5px;
   position: relative;
-  padding: 5px 10px;
+  padding: 5px;
   border: none;
   outline: none;
   background: linear-gradient(to bottom right,#032336, #113951,#477187,#6F8FA2);
@@ -146,13 +155,13 @@ button:hover span:nth-child(4) {
  
 }
 .subtitulo {
-  font-size: 70px;
+  font-size: 50px;
   font-family: Rubik Doodle Shadow;
   color: #d4cdc8;
 } 
 .icono{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 .pagina{
   margin: 100px;

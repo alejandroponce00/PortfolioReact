@@ -2,16 +2,16 @@
     
     justify-content: space-between;
     display: flex;
-    padding: 2rem; /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
+    padding: 0,5rem; /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
     align-items: center;
     
 }
 
-.navbar ul {@media (min-width: 522px) {
+.navbar ul {@media (min-width: 414px) {
   
-    display: flex;
+   
     align-items: center; /* Alineados al centro en lugar de al final */
-    gap: 1rem;
+    gap: 0,5rem;
     margin: 0; /* Eliminado el margen predeterminado de la lista */
     padding: 0; /* Eliminado el relleno predeterminado de la lista */
 }
@@ -22,6 +22,7 @@
 
 /* Estilo básico para los enlaces */
 .navbar ul li a {
+    
     text-decoration: none;
     color: white; /* Color del texto */
    

@@ -20,7 +20,7 @@ export default  function Home() {
       <section className="parrafo text-center">
         Hola, soy un desarrollador fullstack con experiencia en la creación de aplicaciones web de alto rendimiento.Mi enfoque se centra en la construcción de soluciones web atractivas y eficientes utilizando una variedad de tecnologías de vanguardia. Mi objetivo es combinar diseño y funcionalidad para ofrecer experiencias digitales excepcionales.
       </section>
-       <footer className='text-center text-light'>
+       <section className='text-center text-light'>
      
         <ul className='navbar'>
         <li className='tecnologias'><p>JavaScript</p> <FontAwesomeIcon icon={faJs} beat size="xl" className='icono'/></li>
@@ -33,7 +33,7 @@ export default  function Home() {
        <p>Django</p> <Foto tipo="/imagenes/django.png" />
        
        
-       </footer>
+       </section>
      
       <ParticlesBackground />
     </div>
