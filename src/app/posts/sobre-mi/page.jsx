@@ -6,7 +6,7 @@ import ParticlesBackground2 from '@/app/components/config2/particlesBackground'
 import Foto from '@/app/components/foto/fotopredet'
 
 function About() {
-  return (  <div className='sobremi text-center '><Foto tipo="/imagenes/perfil.jpg" />
+  return (  <div className='text-center '><Foto tipo="/imagenes/perfil.jpg"  />
       <h3 className='text-light'>Tecnologías que Domino</h3> <br></br>
       <section className='parrafo2 text-light  text-center'><h3>Frontend:</h3> Utilizo React.js y Next.js para crear interfaces de usuario modernas y receptivas que cautivan a los usuarios. Mi enfoque en la experiencia del usuario garantiza que cada proyecto sea intuitivo y fácil de navegar.<br></br>
 
