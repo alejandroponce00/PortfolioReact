@@ -10,10 +10,26 @@ H1{color: rgb(132, 179, 179);}
     justify-content: center;
     gap: 50px;
   }
-  .proyectos{
-    text-align: center;
-    list-style: none;
-  }
+  .proyecto{
+    
+   
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  
+    justify-content: space-around;
+  
+}
+.tarjeta{
+
+  margin: 10px;
+}
+  
+    
+   
+    
+  
  .principal{@media (min-width: 480px) {
   align-items: center;
   list-style: none;

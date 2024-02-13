@@ -16,11 +16,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/posts/sobre-mi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/posts/sobre-mi/page.js"
-    ],
     "/posts/Proyectos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
