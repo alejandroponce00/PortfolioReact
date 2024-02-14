@@ -15,7 +15,7 @@ async function page() {
           <Cards
             nombre="Portfolio hecho con Django"
             descripcion="Creado con Django y desplegado en pythonanywhere.com "
-            direccion="/posts/contador_automatico"
+            direccion="http://alejandroponce00.pythonanywhere.com/"
             imagen="/imagenes/django.png"
           />
         </div>
