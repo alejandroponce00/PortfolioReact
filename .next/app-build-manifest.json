@@ -21,10 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/posts/Proyectos/page.js"
     ],
-    "/posts/contacto/page": [
+    "/posts/Api/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/posts/contacto/page.js"
+      "static/chunks/app/posts/Api/page.js"
+    ],
+    "/posts/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/posts/[id]/page.js"
     ]
   }
 }

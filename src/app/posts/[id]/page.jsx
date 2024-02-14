@@ -13,8 +13,8 @@ async function Page({params }) {
    const post = await loadPosts(params.id)
   return (
     <div className='text-white text-center'>
-        <h1>{post.id}<br />{post.title}</h1>
-        <p>{post.thumbnailUrl}</p>
+        <h1>{post.id}<br />{post.name}</h1>
+        <p>{post.url}</p>
         <hr />
         <h3>Otras Publicaciones</h3>
         <PostPage />
