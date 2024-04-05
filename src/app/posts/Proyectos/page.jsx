@@ -62,7 +62,7 @@ async function page() {
           <Cards
             nombre="Caja de comentarios"
             descripcion="Creada con django conectada a una base de datos postgres y desplegada en railway "
-            direccion="/posts/contador_automatico"
+            direccion="https://comentariosrender-production.up.railway.app/"
             imagen="/imagenes/coment.png"
           />
         </div>
