@@ -3,8 +3,9 @@ import Link from 'next/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faMessage } from '@fortawesome/free-regular-svg-icons';
 import { faHandPointLeft } from '@fortawesome/free-regular-svg-icons';
 import Deletrea from '@/app/components/texto_animado/page';
 import ParticlesBackground2 from '@/app/components/config2/particlesBackground';
@@ -39,7 +40,15 @@ export default function Page() {
     </a>
   </div>
   <div className="redes">
-    <a href="https://github.com/alejandroponce00?tab=repositories/"
+    <a href="https://comentariosrender-production.up.railway.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-warning">
+      <h3 className="text-dark">Caja de Comentarios<FontAwesomeIcon icon={faMessage} beatFade /></h3>
+    </a>
+  </div>
+  <div className="redes">
+    <a href=""
       target="_blank"
       rel="noopener noreferrer"
       className="btn btn-warning">

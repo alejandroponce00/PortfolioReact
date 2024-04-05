@@ -11,25 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
-    ],
     "/posts/Proyectos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/posts/Proyectos/page.js"
     ],
-    "/posts/Api/page": [
+    "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/posts/Api/page.js"
+      "static/chunks/app/loading.js"
     ],
-    "/posts/[id]/page": [
+    "/posts/contacto/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/posts/[id]/page.js"
+      "static/chunks/app/posts/contacto/page.js"
     ]
   }
 }

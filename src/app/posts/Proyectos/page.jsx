@@ -3,6 +3,7 @@ import Cards from "@/app/components/PostCard/Card/card";
 import Deletrea from "@/app/components/texto_animado/page";
 import ParticlesBackground2 from "@/app/components/config2/particlesBackground";
 
+
 async function page() {
   await new Promise((resolve) => setTimeout(resolve, 1000));
   return (
