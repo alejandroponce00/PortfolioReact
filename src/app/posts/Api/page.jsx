@@ -14,9 +14,9 @@ async function PostPage() {
   const posts = await loadPosts();
   console.log(posts)
   return (
-  <div>
+  <div  >
         {posts.map((post) =>(
-         <PostCard post={post} key={post.id} />  
+         <PostCard post={post} key={post.id} className='container '/>  
         ))}
     </div>
   );
