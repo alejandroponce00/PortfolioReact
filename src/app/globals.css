@@ -10,7 +10,7 @@ H1{color: rgb(132, 179, 179);}
     justify-content: center;
     gap: 50px;
   }
-  .proyecto{
+  .proyecto{@media (min-width: 850px){
     
    
     display: grid;
@@ -20,10 +20,30 @@ H1{color: rgb(132, 179, 179);}
   
     justify-content: space-around;
   
+}display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(2, 1fr);
+gap: 8px;
+
+justify-content: space-around;
+
+}
+.cuerpocard{
+  
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  overflow:visible;
+
 }
 .tarjeta{
-
-  margin: 10px;
+  padding: 20px;
+  
+  margin: 20px;
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+  width: 220px;
+  object-fit: cover;
 }
   
     

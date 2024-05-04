@@ -12,20 +12,14 @@ async function page() {
         <Deletrea escribe="Proyectos" />
       </h1>
       <section className="proyecto">
-        <div>
+      <div>
           <Cards
-            nombre="Portfolio hecho con Django"
-            descripcion="Creado con Django y desplegado en pythonanywhere.com "
-            direccion="http://alejandroponce00.pythonanywhere.com/"
-            imagen="/imagenes/django.png"
-          />
-        </div>
-        <div>
-          <Cards
-            nombre="Portfolio HTML"
-            descripcion="Portfolio hecho en Html"
-            direccion="https://alejandroponce00.github.io/PORTFOLIO/#"
-            imagen="/imagenes/html.png"
+            nombre="Caja de comentarios"
+            descripcion="Creada con django conectada a una base de datos postgres y desplegada en railway "
+            direccion="https://comentariosrender-production.up.railway.app/"
+            imagen="/imagenes/coment.png"
+            ancho= "100"
+            alto ="100"
           />
         </div>
         <div>
@@ -34,14 +28,39 @@ async function page() {
             descripcion="Pagina con catalogo de productos "
             direccion="https://alejandroponce00.github.io/ArteSanaMosaicos/"
             imagen="/imagenes/elefante.png"
+            ancho= "100"
+            alto ="100"
           />
         </div>
+        <div>
+          <Cards
+            nombre="Portfolio hecho con Django"
+            descripcion="Creado con Django y desplegado en pythonanywhere.com "
+            direccion="http://alejandroponce00.pythonanywhere.com/"
+            imagen="/imagenes/django.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+        <div>
+          <Cards
+            nombre="Portfolio HTML"
+            descripcion="Portfolio hecho en Html"
+            direccion="https://alejandroponce00.github.io/PORTFOLIO/#"
+            imagen="/imagenes/html.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+        
         <div>
           <Cards
             nombre="Api externa"
             descripcion="Consulta a una api externa "
             direccion="/posts/Api"
             imagen="/imagenes/api.png"
+            ancho= "100"
+            alto ="100"
           />
         </div>
         <div>
@@ -49,6 +68,9 @@ async function page() {
             nombre="Contador"
             descripcion="Creado con Useeffect "
             direccion="/posts/contador"
+            imagen="/imagenes/progra.png"
+            ancho= "100"
+            alto ="100"
           />
         </div>
         <div>
@@ -56,16 +78,12 @@ async function page() {
             nombre="Contador Automatico"
             descripcion="Creado con Useeffect "
             direccion="/posts/contador_automatico"
+            imagen="/imagenes/progra.png"
+            ancho= "100"
+            alto ="100"
           />
         </div>
-        <div>
-          <Cards
-            nombre="Caja de comentarios"
-            descripcion="Creada con django conectada a una base de datos postgres y desplegada en railway "
-            direccion="https://comentariosrender-production.up.railway.app/"
-            imagen="/imagenes/coment.png"
-          />
-        </div>
+       
       </section>
 
       <ParticlesBackground2 />
