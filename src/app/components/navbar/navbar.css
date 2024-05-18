@@ -2,7 +2,7 @@
     
     justify-content: space-between;
     display: flex;
-    padding: 0,5rem; /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
+     /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
     align-items: center;
     
 }
@@ -18,6 +18,10 @@
 }
 .navbar ul li {
     list-style: none;
+    display: flex;
+  flex-direction: column;
+  
+
 }
 
 /* Estilo básico para los enlaces */
@@ -25,6 +29,7 @@
     
     text-decoration: none;
     color: white; /* Color del texto */
+    
    
     border-radius: 4px; /* Bordes redondeados para un aspecto más agradable */
 }

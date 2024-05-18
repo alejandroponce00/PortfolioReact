@@ -44,6 +44,17 @@ async function page() {
         </div>
         <div>
           <Cards
+            nombre="Turnos Taller Mecanico"
+            descripcion="
+            App para gestionar turnos en un taller mecánico: registra vehículos, dueños, reparaciones y horas de ingreso."
+            direccion="https://github.com/alejandroponce00/taller_django_y_next.git"
+            imagen="/imagenes/taller_preview.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+        <div>
+          <Cards
             nombre="Portfolio HTML"
             descripcion="Portfolio hecho en Html"
             direccion="https://alejandroponce00.github.io/PORTFOLIO/#"

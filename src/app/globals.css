@@ -53,6 +53,7 @@ justify-content: space-around;
  .principal{@media (min-width: 480px) {
   align-items: center;
   list-style: none;
+  padding: 100px;
   margin: auto
  }margin:10px;}
   
