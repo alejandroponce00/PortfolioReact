@@ -54,7 +54,8 @@ justify-content: space-around;
   font-size: 30px;
   text-align: center;
  }
- 
+ display: flex;
+    justify-content: center;
  
   font-family: "Rubik Doodle Shadow";
   font-size: 50px;
@@ -211,7 +212,7 @@ button:hover span:nth-child(4) {
   font-family: Rubik Doodle Shadow;
   color: #d4cdc8;
 } 
-font-size: 20px;
+font-size: 35px;
   font-family: Rubik Doodle Shadow;
   color: #d4cdc8;}
 .icono{
