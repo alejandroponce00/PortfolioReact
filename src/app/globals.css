@@ -20,7 +20,8 @@ H1{color: rgb(132, 179, 179);}
   
     justify-content: space-around;
   
-}display: grid;
+}
+display: grid;
 grid-template-rows: repeat(2, 1fr);
 grid-template-columns: repeat(2, 1fr);
 gap: 8px;
@@ -47,7 +48,19 @@ justify-content: space-around;
 }
   
     
-   
+ .deletreado{@media (min-width: 780px) {font-size: 80px;};@media (max-width: 480px){
+
+  font-family: "Rubik Doodle Shadow";
+  font-size: 30px;
+  text-align: center;
+ }
+ 
+ 
+  font-family: "Rubik Doodle Shadow";
+  font-size: 50px;
+  
+}
+  
     
   
  .principal{@media (min-width: 480px) {
@@ -55,7 +68,8 @@ justify-content: space-around;
   list-style: none;
   padding: 100px;
   margin: auto
- }margin:10px;}
+ }margin:10px;
+}
   
   .dots {
     display: flex;
@@ -77,6 +91,7 @@ justify-content: space-around;
    
 
     .contenedor {
+      
     display: flex;
     justify-content: center;
     
@@ -191,11 +206,14 @@ button:hover span:nth-child(4) {
   
  
 }
-.subtitulo {
+.subtitulo {@media (min-width: 550px){
   font-size: 50px;
   font-family: Rubik Doodle Shadow;
   color: #d4cdc8;
 } 
+font-size: 20px;
+  font-family: Rubik Doodle Shadow;
+  color: #d4cdc8;}
 .icono{
   width: 80px;
   height: 80px;

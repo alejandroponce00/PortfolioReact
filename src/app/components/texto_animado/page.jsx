@@ -1,4 +1,5 @@
 "use client"
+import { Globals } from '@react-spring/web';
 import React from 'react';
 import { Slide, Fade } from 'react-awesome-reveal';
 
@@ -8,7 +9,7 @@ function Deletrea(props) {
       <Slide>
         
       </Slide>
-      <Fade delay={300} cascade damping={0.1} className='text-secondary'>
+      <Fade delay={300} cascade damping={0.1} className=' text-secondary'>
         {props.escribe}
         
       </Fade>

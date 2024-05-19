@@ -6,6 +6,7 @@ import Navbar from './components/navbar/page';
 
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       
       
-      <body><div className='pagina'><Navbar /><h1 className="text-center text-white"><Deletrea escribe="Alejandro Ponce"/></h1> 
+      <body><div className='pagina'><Navbar /><h1 className="deletreado text-center text-white"><Deletrea escribe="Alejandro Ponce"/></h1> 
       
       {children}</div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossOrigin="anonymous"async></script>
