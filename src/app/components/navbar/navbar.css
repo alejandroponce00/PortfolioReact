@@ -1,21 +1,13 @@
 .navbar {
-    
+    list-style: none;
     justify-content: space-between;
-    display: flex;
+   
      /* Modificado el valor del padding para que sea más amigable en pantallas pequeñas */
     align-items: center;
     
 }
 
-.navbar ul {@media (min-width: 414px) {
-  
-   
-    align-items: center; /* Alineados al centro en lugar de al final */
-    gap: 0,5rem;
-    margin: 0; /* Eliminado el margen predeterminado de la lista */
-    padding: 0; /* Eliminado el relleno predeterminado de la lista */
-}
-}
+
 .navbar ul li {
     list-style: none;
     display: flex;
@@ -26,7 +18,7 @@
 
 /* Estilo básico para los enlaces */
 .navbar ul li a {
-    
+    list-style: none;
     text-decoration: none;
     color: white; /* Color del texto */
     
