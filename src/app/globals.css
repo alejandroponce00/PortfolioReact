@@ -203,7 +203,7 @@ button:hover span:nth-child(4) {
 }  
 .next{
   border-radius: 50px;
-  background-color: #dbdbe3;
+  background-color: #ffffff;
   
  
 }
@@ -219,6 +219,6 @@ font-size: 35px;
   width: 80px;
   height: 80px;
 }
-.pagina{
-  margin: 50px;
-}
+.pagina{@media (min-width: 850px){
+  margin: 100px 200px 50px 200px;
+}margin: 100px}

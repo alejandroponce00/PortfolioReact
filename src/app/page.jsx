@@ -6,6 +6,7 @@ import { faPython } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import Foto from "./components/foto/fotopredet";
+import Deletrea from "./components/texto_animado/page";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         variedad de tecnologías de vanguardia. Mi objetivo es combinar diseño y
         funcionalidad para ofrecer experiencias digitales excepcionales.
       </section>
+      <h2 className="text-center text-white"><Deletrea escribe="Skills"/></h2>
+      <hr />
       <section className="text-center text-light">
         <ul className="navbar">
           <li className="tecnologias">
