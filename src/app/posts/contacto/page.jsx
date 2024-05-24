@@ -15,12 +15,12 @@ import ParticlesBackground2 from '@/app/components/config2/particlesBackground';
 export default function Page() {
   return (
     
-    <div className='principal'>
+    <div className='contacto'>
       
     <h1 className="subtitulo text-center"><Deletrea escribe="Contacto" /></h1>
       
       
-      <div className='elemento'>
+      <div>
       <div className="contenedor">
   <div className="redes">
     <a href="https://www.instagram.com/alejandrooponce/"
