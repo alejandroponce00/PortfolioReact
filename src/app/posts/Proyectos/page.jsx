@@ -14,6 +14,17 @@ async function page() {
       <section className="proyecto">
       <div>
           <Cards
+            nombre="Turnos Taller Mecanico"
+            descripcion="
+            App para gestionar turnos en un taller mecánico: registra vehículos, dueños, reparaciones y horas de ingreso."
+            direccion="https://taller-frontend-4y9r1knhx-alejandros-projects-30c19e38.vercel.app/"
+            imagen="/imagenes/taller_preview.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+      <div>
+          <Cards
             nombre="Caja de comentarios"
             descripcion="Creada con django conectada a una base de datos postgres y desplegada en railway "
             direccion="https://comentariosrender-production.up.railway.app/"
@@ -42,17 +53,7 @@ async function page() {
             alto ="100"
           />
         </div>
-        <div>
-          <Cards
-            nombre="Turnos Taller Mecanico"
-            descripcion="
-            App para gestionar turnos en un taller mecánico: registra vehículos, dueños, reparaciones y horas de ingreso."
-            direccion="https://github.com/alejandroponce00/taller_django_y_next.git"
-            imagen="/imagenes/taller_preview.png"
-            ancho= "100"
-            alto ="100"
-          />
-        </div>
+       
         <div>
           <Cards
             nombre="Portfolio HTML"
