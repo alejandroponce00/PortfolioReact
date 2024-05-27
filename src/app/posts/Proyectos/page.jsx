@@ -17,7 +17,7 @@ async function page() {
             nombre="Turnos Taller Mecanico"
             descripcion="
             App para gestionar turnos en un taller mecánico: registra vehículos, dueños, reparaciones y horas de ingreso."
-            direccion="https://taller-frontend-4y9r1knhx-alejandros-projects-30c19e38.vercel.app/"
+            direccion="https://taller-frontend-20do9byp2-alejandros-projects-30c19e38.vercel.app/"
             imagen="/imagenes/taller_preview.png"
             ancho= "100"
             alto ="100"
