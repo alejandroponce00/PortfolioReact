@@ -43,16 +43,7 @@ async function page() {
             alto ="100"
           />
         </div>
-        <div>
-          <Cards
-            nombre="Portfolio hecho con Django"
-            descripcion="Creado con Django y desplegado en pythonanywhere.com "
-            direccion="http://alejandroponce00.pythonanywhere.com/"
-            imagen="/imagenes/django.png"
-            ancho= "100"
-            alto ="100"
-          />
-        </div>
+        
        
         <div>
           <Cards
