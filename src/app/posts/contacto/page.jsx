@@ -48,7 +48,7 @@ export default function Page() {
     </a>
   </div>
   <div className="redes">
-    <a href=""
+    <a href="https://github.com/alejandroponce00"
       target="_blank"
       rel="noopener noreferrer"
       className="btn btn-warning">
