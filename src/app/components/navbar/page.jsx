@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <nav className='navbar'>
+    <nav className='navbar '>
        <Link href="/"> <button type= "button"className="hover">
         <span></span>
         <span></span>

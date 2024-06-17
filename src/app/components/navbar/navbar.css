@@ -18,6 +18,7 @@
 
 /* Estilo básico para los enlaces */
 .navbar ul li a {
+    background-color: aquamarine;
     list-style: none;
     text-decoration: none;
     color: white; /* Color del texto */

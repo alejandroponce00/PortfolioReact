@@ -46,7 +46,7 @@ async function page() {
         <div>
           <Cards
             nombre="ArteSana Mosaicos"
-            descripcion="Pagina con catalogo de productos "
+            descripcion="Pagina creada para una artista de mosaiquismo desplegada en github pages "
             direccion="https://alejandroponce00.github.io/ArteSanaMosaicos/"
             imagen="/imagenes/elefante.png"
             ancho= "100"
