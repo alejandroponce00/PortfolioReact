@@ -62,7 +62,7 @@ export default function Page() {
      
       
       
-      <h5 className='text-center'>
+      <h5 className='text-center mt-10'>
         <Link href="/">volver al inicio<FontAwesomeIcon icon={faHandPointLeft} beatFade /></Link>
       </h5>
     

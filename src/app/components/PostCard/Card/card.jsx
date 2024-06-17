@@ -14,7 +14,7 @@ export default function Cards(props) {
       <div className="cuerpocard ">
         <h5 className="card-title">{props.nombre}</h5>
         <p className="card-text">{props.descripcion}</p>
-        <a href={props.direccion} class="btn btn-primary">
+        <a href={props.direccion} target="_blank" class="btn btn-primary" >
           Hecha un vistazo
         </a>
       </div>

@@ -35,6 +35,16 @@ async function page() {
         </div>
         <div>
           <Cards
+            nombre="Ojos de Cielo Arte"
+            descripcion="Pagina creada para una artista plastica y dibujante,desplegada en Netlify "
+            direccion="https://ojosdecieloarte.netlify.app/"
+            imagen="/imagenes/vistaprev-ojos.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+        <div>
+          <Cards
             nombre="ArteSana Mosaicos"
             descripcion="Pagina con catalogo de productos "
             direccion="https://alejandroponce00.github.io/ArteSanaMosaicos/"
