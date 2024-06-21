@@ -45,6 +45,16 @@ async function page() {
         </div>
         <div>
           <Cards
+            nombre="Marvel Api"
+            descripcion="Pagina creada para consumir una api de marvel usando nextjs y axios "
+            direccion="https://marvel-api-ale.netlify.app/"
+            imagen="/imagenes/marvel.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+        <div>
+          <Cards
             nombre="ArteSana Mosaicos"
             descripcion="Pagina creada para una artista de mosaiquismo desplegada en github pages "
             direccion="https://alejandroponce00.github.io/ArteSanaMosaicos/"

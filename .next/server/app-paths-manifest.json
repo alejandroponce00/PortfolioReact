@@ -1,6 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/posts/Proyectos/page": "app/posts/Proyectos/page.js",
-  "/posts/contacto/page": "app/posts/contacto/page.js",
-  "/posts/Api/page": "app/posts/Api/page.js"
+  "/posts/Proyectos/page": "app/posts/Proyectos/page.js"
 }
