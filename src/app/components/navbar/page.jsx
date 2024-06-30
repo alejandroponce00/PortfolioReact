@@ -1,15 +1,17 @@
 import React from 'react'
 import Link from 'next/link';
+import Calendario from '../calendario/page';
 
 
 function Navbar() {
   return (
     <nav className='navbar '>
+      
        <Link href="/"> <button type= "button"className="hover">
         <span></span>
         <span></span>
         <span></span>
-       Pagina<br />Principal</button></Link>
+       Pagina<br />Principal</button></Link><Calendario />
     <ul>
     <li> <Link href="/posts/contacto"><button type= "button"className="hover">
         <span></span>

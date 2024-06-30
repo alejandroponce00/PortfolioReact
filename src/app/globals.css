@@ -227,5 +227,7 @@ font-size: 35px;
   height: 80px;
 }
 .pagina{@media (min-width: 850px){
-  margin: 100px 200px 50px 200px;
-}margin: 100px}
+  margin: 20px 200px 50px 200px;
+}margin: 50p;
+text-align: center;
+}
