@@ -4,14 +4,14 @@ import Calendario from '../calendario/page';
 
 
 function Navbar() {
-  return (
+  return (<div><section><Calendario /></section>
     <nav className='navbar '>
       
        <Link href="/"> <button type= "button"className="hover">
         <span></span>
         <span></span>
         <span></span>
-       Pagina<br />Principal</button></Link><Calendario />
+       Pagina<br />Principal</button></Link>
     <ul>
     <li> <Link href="/posts/contacto"><button type= "button"className="hover">
         <span></span>
@@ -25,7 +25,7 @@ function Navbar() {
         <span></span>
         <span></span>
         <span></span>Sobre mi</button></Link></li>
-    </ul></nav>
+    </ul></nav></div>
   )
 }
 
