@@ -10,11 +10,11 @@ import Deletrea from "./components/texto_animado/page";
 
 export default function Home() {
   return (
-    <div className="principal">
+    <div className="principal ">
       <h3 className="text-center"></h3>
       <h1 className="subtitulo  text-center ">Desarrollo Web Fullstack</h1>{" "}
       <br /> <hr className="text-light" />
-      <section className="parrafo text-center">
+      <section className="parrafo text-center ">
         Hola, soy un desarrollador fullstack con experiencia en la creación de
         aplicaciones web de alto rendimiento.Mi enfoque se centra en la
         construcción de soluciones web atractivas y eficientes utilizando una
