@@ -21,7 +21,7 @@
 
 ## Demo
 
-Mira el portafolio en vivo [aquí](#) (https://portfolio-ract.vercel.app/).
+Mira el portafolio en vivo [aquí](https://portfolio-ract.vercel.app/).
 
 ## Instalación
 
