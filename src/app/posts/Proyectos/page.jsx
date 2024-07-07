@@ -14,9 +14,11 @@ async function page() {
       <section className="proyecto">
       <div>
           <Cards
-            nombre="Turnos Taller Mecanico"
+            nombre="Turnos Taller"
             descripcion="
-            App para gestionar turnos en un taller mecánico: registra vehículos, dueños, reparaciones y horas de ingreso."
+            Gestiona turnos en un taller mecánico: 
+            registra vehículos,dueños,reparaciones y horas de ingreso.
+            Frontend desplegado en vercel y backend en railway "
             direccion="https://taller-frontend-beta.vercel.app/"
             imagen="/imagenes/taller_preview.png"
             ancho= "100"

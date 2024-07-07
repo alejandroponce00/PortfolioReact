@@ -1,3 +1,7 @@
 {
-  "/posts/Proyectos/page": "app/posts/Proyectos/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/posts/Proyectos/page": "app/posts/Proyectos/page.js",
+  "/posts/[id]/page": "app/posts/[id]/page.js",
+  "/posts/Api/page": "app/posts/Api/page.js"
 }
