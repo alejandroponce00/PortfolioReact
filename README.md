@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio Personal de Desarrollo Web
 
-## Getting Started
+¡Bienvenido a mi portafolio personal de desarrollo web! Este proyecto está creado usando Next.js, TS Particles y Tailwind CSS. Aquí puedes encontrar información sobre mis proyectos, habilidades y experiencia.
 
-First, run the development server:
+## Tabla de Contenidos
+- [Características](#características)
+- [Demo](#demo)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Diseño moderno y responsivo
+- Animaciones con TS Particles
+- Estilizado con Tailwind CSS
+- Secciones de proyectos, habilidades y experiencia
+- Fácil de personalizar y extender
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Mira el portafolio en vivo [aquí](https://portfolio-ract.vercel.app/).
 
-## Learn More
+## Instalación
 
-To learn more about Next.js, take a look at the following resources:
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/portafolio-nextjs.git
+    cd portafolio-nextjs
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Instala las dependencias:
+    ```bash
+    npm install
+    ```
 
-## Deploy on Vercel
+3. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Abre tu navegador y navega a `http://localhost:3000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Uso
+
+- Explora las diferentes secciones del portafolio: Proyectos, Habilidades, Experiencia y Contacto.
+- Personaliza las secciones y el contenido según tus necesidades.
+- Utiliza TS Particles para agregar animaciones atractivas.
+- Modifica los estilos fácilmente con Tailwind CSS.
+
+## Contribuir
+
+¡Las contribuciones son bienvenidas! Si tienes alguna idea, informe de errores o mejoras, no dudes en abrir un issue o enviar un pull request.
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nombre-de-tu-funcionalidad`).
+3. Realiza tus cambios.
+4. Haz commit de tus cambios (`git commit -m 'Agregar una funcionalidad'`).
+5. Empuja a la rama (`git push origin feature/nombre-de-tu-funcionalidad`).
+6. Abre un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+Si tienes alguna pregunta, no dudes en ponerte en contacto:
+
+- GitHub: [tu-usuario](https://github.com/tu-usuario)
+- Email: tu-email@ejemplo.com
+
