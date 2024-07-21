@@ -14,6 +14,17 @@ async function page() {
       <section className="proyecto">
       <div>
           <Cards
+            nombre="Cocinero Virtual"
+            descripcion="
+            muestrale los ingredientes que tienes y te ayudará a cocinar algo "
+            direccion="https://tu-cocinero.vercel.app/"
+            imagen="/imagenes/tu_cocinero.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+      <div>
+          <Cards
             nombre="Turnos Taller"
             descripcion="
             Gestiona turnos en un taller mecánico: 
