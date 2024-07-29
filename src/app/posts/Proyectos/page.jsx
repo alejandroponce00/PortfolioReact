@@ -16,13 +16,22 @@ async function page() {
           <Cards
             nombre="Cocinero Virtual"
             descripcion="
-            muestrale los ingredientes que tienes y te ayudará a cocinar algo "
+            Muestrale los ingredientes que tienes y te ayudará a cocinar algo,creado con nextjs,vercel sdk y api de perplexity. Desplegado en vercel"
             direccion="https://tu-cocinero.vercel.app/"
             imagen="/imagenes/tu_cocinero.png"
             ancho= "100"
             alto ="100"
           />
         </div>
+        <Cards
+            nombre="Chatbot de Minecraft"
+            descripcion="
+            Chatbot de Minecraft creado con nextjs,vercel sdk y api de perplexity. Desplegado en vercel "
+            direccion="https://tu-cocinero.vercel.app/"
+            imagen="/imagenes/minecraft.png"
+            ancho= "100"
+            alto ="100"
+          />
       <div>
           <Cards
             nombre="Turnos Taller"
