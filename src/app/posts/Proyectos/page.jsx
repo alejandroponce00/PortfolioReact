@@ -27,7 +27,7 @@ async function page() {
             nombre="Chatbot de Minecraft"
             descripcion="
             Chatbot de Minecraft creado con nextjs,vercel sdk y api de perplexity. Desplegado en vercel "
-            direccion="https://tu-cocinero.vercel.app/"
+            direccion="https://minecraft-asistente.vercel.app/"
             imagen="/imagenes/minecraft.png"
             ancho= "100"
             alto ="100"
