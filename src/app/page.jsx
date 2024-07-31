@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="principal ">
       <h3 className="text-center"></h3>
-      <h1 className="subtitulo  text-center ">Desarrollo Web Fullstack</h1>{" "}
+      <h1 className="subtitulo  text-center ">Desarrollador <br /> Web  Fullstack</h1>{" "}
       <br /> <hr className="text-light" />
       <section className="parrafo text-center ">
         Hola, soy un desarrollador fullstack con experiencia en la creación de
