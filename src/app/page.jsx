@@ -10,7 +10,7 @@ import Deletrea from "./components/texto_animado/page";
 
 export default function Home() {
   return (
-    <div className="principal ">
+    <div className="principal  ">
       <h3 className="text-center"></h3>
       <h1 className="subtitulo  text-center ">Desarrollador <br /> Web  Fullstack</h1>{" "}
       <br /> <hr className="text-light" />
