@@ -9,7 +9,7 @@ function Deletrea(props) {
       <Slide>
         
       </Slide>
-      <Fade delay={300} cascade damping={0.1} className=' text-secondary'>
+      <Fade delay={300} cascade damping={0.1} className=' text-light'>
         {props.escribe}
         
       </Fade>
