@@ -1,3 +1,17 @@
 {
-  "/page": "app/page.js"
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/components/Animacion/page": "app/components/Animacion/page.js",
+  "/components/navbar/page": "app/components/navbar/page.js",
+  "/components/calendario/page": "app/components/calendario/page.js",
+  "/posts/Animacion/page": "app/posts/Animacion/page.js",
+  "/posts/contacto/page": "app/posts/contacto/page.js",
+  "/posts/[id]/page": "app/posts/[id]/page.js",
+  "/posts/contador/page": "app/posts/contador/page.js",
+  "/posts/contador_automatico/page": "app/posts/contador_automatico/page.js",
+  "/posts/Api/page": "app/posts/Api/page.js",
+  "/posts/sobre-mi/page": "app/posts/sobre-mi/page.js",
+  "/components/texto_animado/page": "app/components/texto_animado/page.js",
+  "/posts/Proyectos/page": "app/posts/Proyectos/page.js"
 }
