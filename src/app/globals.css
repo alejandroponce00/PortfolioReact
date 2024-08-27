@@ -4,8 +4,8 @@
 
 body {
   
-  background-image: url("/imagenes/4k.jpg");
-  backdrop-filter: blur(7px);
+  background-image: url("/imagenes/texture.jpg");
+  backdrop-filter: blur(1px);
   
 }
 
@@ -169,7 +169,7 @@ margin-top: 80px;
   font-size: 25px;
   color: #fff;
   margin-bottom: 100px;
-  color: rgb(129, 133, 136);
+  color: rgb(155, 174, 189);
   writing-mode: horizontal-tb;
   display: flex;
 }
