@@ -8,12 +8,15 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import Foto from "./components/foto/fotopredet";
 import Deletrea from "./components/texto_animado/page";
 
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 export default function Home() {
   return (
     <div className="principal  ">
-      <h3 className="text-center"></h3>
+      
       <h1 className="subtitulo  text-center ">Desarrollador <br /> Web  Fullstack</h1>{" "}
-      <br /> <hr className="text-light" />
+     <br /> <h3 className="text-center text-white mb-36"><FontAwesomeIcon icon={faEnvelope} /> ale@alejandroponcedev.com</h3>
+       <hr className="text-light" />
       <section className="parrafo text-center ">
         Hola, soy un desarrollador fullstack con experiencia en la creación de
         aplicaciones web de alto rendimiento.Mi enfoque se centra en la
