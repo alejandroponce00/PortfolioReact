@@ -45,6 +45,17 @@ async function page() {
             alto ="100"
           />
         </div>
+      
+        <Cards
+            nombre="Clon de Twitter X"
+            descripcion="
+            Clon de twitter creado con nextjs y shadcn "
+            direccion="https://twitter-clon-nu.vercel.app//"
+            imagen="/imagenes/twiterclonprev.png"
+            ancho= "100"
+            alto ="100"
+          />
+        
       <div>
           <Cards
             nombre="Caja de comentarios"
