@@ -14,6 +14,17 @@ async function page() {
       <section className="proyecto">
       <div>
           <Cards
+            nombre="Todo App"
+            descripcion="
+            Aplicación CRUD de tareas usando Next.js y Django.Permite crear, listar, editar y eliminar tareas con una interfaz moderna gracias a Shadcn"
+           direccion="https://client-todo-rho.vercel.app/"
+            imagen="/imagenes/todoapp.jpg"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+      <div>
+          <Cards
             nombre="Cocinero Virtual"
             descripcion="
             Muestrale los ingredientes que tienes y te ayudará a cocinar algo,creado con nextjs,vercel sdk y api de perplexity. Desplegado en vercel"
