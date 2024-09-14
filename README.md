@@ -71,6 +71,6 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 
 Si tienes alguna pregunta, no dudes en ponerte en contacto:
 
-- GitHub: [tu-usuario](https://github.com/tu-usuario)
-- Email: tu-email@ejemplo.com
+- GitHub: [Alejandroponce00](https://github.com/alejandroponce00)
+- Email: ale@alejandroponcedev.com
 
