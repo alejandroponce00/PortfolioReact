@@ -5,7 +5,8 @@
 body {
   
   background-image: url("/imagenes/texture.jpg");
-  backdrop-filter: blur(1px);
+  background-repeat: no-repeat;
+  
   
 }
 
