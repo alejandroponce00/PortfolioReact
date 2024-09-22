@@ -37,7 +37,7 @@ async function page() {
         <Cards
             nombre="Chatbot de Minecraft"
             descripcion="
-            Chatbot de Minecraft creado con nextjs,vercel sdk y api de perplexity. Desplegado en vercel "
+            Chatbot de Minecraft creado para que mi hijo no tenga que googlear los comandos y trucos de minecraft.Hecho con nextjs,vercel sdk y api de perplexity."
             direccion="https://minecraft-asistente.vercel.app/"
             imagen="/imagenes/minecraft.png"
             ancho= "100"
