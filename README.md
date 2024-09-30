@@ -1,6 +1,6 @@
 <center> <h1> Portafolio Personal de Desarrollo Web</h1> </center>
 
-![Link an image.](/api.png )
+![Link an image.](/public/imagenes/api.png)
 ¡Bienvenido a mi portafolio personal de desarrollo web! Este proyecto está creado usando Next.js, TS Particles y Tailwind CSS. Aquí puedes encontrar información sobre mis proyectos, habilidades y experiencia.
 
 ## Tabla de Contenidos
