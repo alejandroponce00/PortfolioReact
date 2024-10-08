@@ -12,6 +12,7 @@ async function page() {
         <Deletrea escribe="Proyectos" />
       </h1>
       <section className="proyecto">
+
       <div>
           <Cards
             nombre="Todo App"
@@ -19,6 +20,17 @@ async function page() {
             Aplicación CRUD de tareas usando Next.js y Django.Permite crear, listar, editar y eliminar tareas con una interfaz moderna gracias a Shadcn"
            direccion="https://client-todo-rho.vercel.app/"
             imagen="/imagenes/todoapp.jpg"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+        <div>
+          <Cards
+            nombre="Clon de Spotify"
+            descripcion="
+            Clon de Spotify creado con nextjs y taildwind"
+           direccion="https://clon-spotify-alejandro.netlify.app"
+            imagen="/imagenes/spotify-preview.png"
             ancho= "100"
             alto ="100"
           />
