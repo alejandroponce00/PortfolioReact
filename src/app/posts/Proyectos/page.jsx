@@ -29,7 +29,7 @@ async function page() {
             nombre="Clon de Spotify"
             descripcion="
             Clon de Spotify creado con nextjs y taildwind"
-           direccion="https://clon-spotify-alejandro.netlify.app"
+           direccion="https://clon-spotify-tjoi.vercel.app/"
             imagen="/imagenes/spotify-preview.png"
             ancho= "100"
             alto ="100"
