@@ -15,7 +15,7 @@ export default function Home() {
     <div className="principal  ">
       
       <h1 className="subtitulo  text-center ">Desarrollador <br /> Web  Fullstack</h1>{" "}
-     <br /> <h3 className="text-center text-white mb-36"><FontAwesomeIcon icon={faEnvelope} /> ale@alejandroponcedev.com</h3>
+     <br /> <h3 className="text-center text-white mb-36"><FontAwesomeIcon icon={faEnvelope} /> alejandroponce00@gmail.com</h3>
        <hr className="text-light" />
       <section className="parrafo text-center ">
         Hola, soy un desarrollador fullstack con experiencia en la creación de
