@@ -12,6 +12,30 @@ async function page() {
         <Deletrea escribe="Proyectos" />
       </h1>
       <section className="proyecto">
+      <div>
+          <Cards
+            nombre="Fondos de Halloween <Hackaton Cloudinary>"
+            descripcion="cambia el fondo de tu foto por uno de halloween,hecho con nextjs,tailwind y cloudinari
+            "
+            direccion="https://halloween-photo.vercel.app/"
+            imagen="/imagenes/photo-halloween.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+      <div>
+          <Cards
+            nombre="Turnos Taller"
+            descripcion="
+            Gestiona turnos en un taller mecánico: 
+            registra vehículos,dueños,reparaciones y horas de ingreso.
+            Frontend desplegado en vercel y backend en railway "
+            direccion="https://taller-frontend-beta.vercel.app/"
+            imagen="/imagenes/taller_preview.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
 
       <div>
           <Cards
@@ -37,7 +61,7 @@ async function page() {
         </div>
       <div>
           <Cards
-            nombre="Cocinero Virtual"
+            nombre="Cocinero Virtual <Hackaton Vercel>"
             descripcion="
             Muestrale los ingredientes que tienes y te ayudará a cocinar algo,creado con nextjs,vercel sdk y api de perplexity. Desplegado en vercel"
             direccion="https://tu-cocinero.vercel.app/"
@@ -47,7 +71,7 @@ async function page() {
           />
         </div>
         <Cards
-            nombre="Chatbot de Minecraft"
+            nombre="Chatbot de Minecraft <Hackaton Vercel>"
             descripcion="
             Chatbot de Minecraft creado para que mi hijo no tenga que googlear los comandos y trucos de minecraft.Hecho con nextjs,vercel sdk y api de perplexity."
             direccion="https://minecraft-asistente.vercel.app/"
@@ -55,19 +79,7 @@ async function page() {
             ancho= "100"
             alto ="100"
           />
-      <div>
-          <Cards
-            nombre="Turnos Taller"
-            descripcion="
-            Gestiona turnos en un taller mecánico: 
-            registra vehículos,dueños,reparaciones y horas de ingreso.
-            Frontend desplegado en vercel y backend en railway "
-            direccion="https://taller-frontend-beta.vercel.app/"
-            imagen="/imagenes/taller_preview.png"
-            ancho= "100"
-            alto ="100"
-          />
-        </div>
+      
       
         <Cards
             nombre="Clon de Twitter X"
