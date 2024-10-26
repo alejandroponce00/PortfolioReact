@@ -7,10 +7,13 @@ import ParticlesBackground2 from "@/app/components/config2/particlesBackground";
 async function page() {
   await new Promise((resolve) => setTimeout(resolve, 1000));
   return (
-    <div className="principal">
+    <div className="r">
       <h1 className="subtitulo text-center ">
         <Deletrea escribe="Proyectos" />
       </h1>
+      
+      
+      
       <section className="proyecto">
       <div>
           <Cards
@@ -23,7 +26,7 @@ async function page() {
             alto ="100"
           />
         </div>
-      <div>
+        <div>
           <Cards
             nombre="Turnos Taller"
             descripcion="
@@ -32,6 +35,17 @@ async function page() {
             Frontend desplegado en vercel y backend en railway "
             direccion="https://taller-frontend-beta.vercel.app/"
             imagen="/imagenes/taller_preview.png"
+            ancho= "100"
+            alto ="100"
+          />
+        </div>
+      <div>
+          <Cards
+            nombre="Panel Mecanicos"
+            descripcion="
+            Este es otro front conectado al back de turnos_taller.Está pensado para que lo utilicen los mecanicos"
+            direccion="https://panel-mecanico.vercel.app/"
+            imagen="/imagenes/panel_mecanicos.png"
             ancho= "100"
             alto ="100"
           />
@@ -183,7 +197,7 @@ async function page() {
             ancho= "100"
             alto ="100"
           />
-        </div>
+        </div> 
        
       </section>
 
