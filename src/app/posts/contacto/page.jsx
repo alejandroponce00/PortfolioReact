@@ -22,18 +22,7 @@ export default function Page() {
       
         <div className="contenedor">
         
-          <div className="redes ">
-            <a
-              href="https://www.instagram.com/alejandrooponce/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-warning"
-            >
-              <h3 className="text-dark">
-                Instagram <FontAwesomeIcon icon={faInstagram} bounce />
-              </h3>
-            </a>
-          </div>
+         
           
           <div className="redes">
             <a
@@ -63,7 +52,7 @@ export default function Page() {
           </div>
           <div className="redes">
             <a
-              href="mailto:ale@alejandroponcedev.com"
+              href="mailto:alejandroponce00@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-warning"
